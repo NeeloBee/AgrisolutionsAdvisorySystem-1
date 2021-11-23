@@ -58,6 +58,10 @@ open({
     res.render('home') 
   });
   
+  app.get('/chatbot', function (req, res) {
+    res.render('chatbot') 
+  });
+  
   
   let PORT = process.env.PORT || 3007;
   
